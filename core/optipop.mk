@@ -77,7 +77,8 @@ LOCAL_DISABLE_STRICT := \
 	libart-disassembler \
 	linker \
 	camera.msm8084 \
-	mm-vdec-omx-test
+	mm-vdec-omx-test \
+	libc_malloc
 
 LOCAL_FORCE_DISABLE_STRICT := \
 	libziparchive-host \
