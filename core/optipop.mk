@@ -13,6 +13,23 @@
 # limitations under the License.
 #
 
+#################
+# Select.mk Flags
+#################
+SELECT_FILE_FLAGS := \
+	-O3 \
+	-DNDEBUG \
+	-pipe \
+	-fivopts \
+	-ffunction-sections \
+	-fdata-sections \
+	-funswitch-loops \
+	-fomit-frame-pointer \
+	-ftracer \
+	-Wno-unused-parameter \
+	-Wno-unused-but-set-variable \
+	-Wno-maybe-uninitialized
+
 ################
 #Strict Aliasing
 ################
