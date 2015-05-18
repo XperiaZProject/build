@@ -30,6 +30,24 @@ SELECT_FILE_FLAGS := \
 	-Wno-unused-but-set-variable \
 	-Wno-maybe-uninitialized
 
+###########
+# ARM Flags
+###########
+COMMON_ARM_FLAGS := \
+	-DNDEBUG \
+	-pipe \
+	-fivopts \
+	-ffunction-sections \
+	-fdata-sections \
+	-fomit-frame-pointer \
+	-ftracer \
+	-Wno-unused-parameter \
+	-Wno-unused-but-set-variable \
+	-Wno-maybe-uninitialized \
+	-Wno-array-bounds \
+	-Wno-clobbered \
+	-Wno-strict-overflow
+
 ################
 #Strict Aliasing
 ################
