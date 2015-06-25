@@ -123,7 +123,8 @@ LOCAL_FORCE_DISABLE_STRICT := \
 	libdiskconfig \
 	logd \
 	libjavacore \
-	camera.msm8084
+	camera.msm8084 \
+	libstagefright_webm
 
 DISABLE_STRICT := \
 	-fno-strict-aliasing
