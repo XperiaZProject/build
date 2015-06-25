@@ -114,7 +114,8 @@ LOCAL_DISABLE_STRICT := \
 	camera.msm8084 \
 	mm-vdec-omx-test \
 	libc_malloc \
-	mdnsd
+	mdnsd \
+	libstagefright_webm
 
 LOCAL_FORCE_DISABLE_STRICT := \
 	libziparchive-host \
