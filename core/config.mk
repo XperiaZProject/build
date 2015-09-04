@@ -619,7 +619,7 @@ RS_PREBUILT_COMPILER_RT := prebuilts/sdk/renderscript/lib/$(TARGET_ARCH)/libcomp
 
 ## We need to be sure the global selinux policies are included
 ## last, to avoid accidental resetting by device configs
-$(eval include vendor/optipop/sepolicy/sepolicy.mk)
+$(eval include vendor/darkpop/sepolicy/sepolicy.mk)
 
 # Rules for QCOM targets
 include $(BUILD_SYSTEM)/qcom_target.mk
